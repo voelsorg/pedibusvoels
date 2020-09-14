@@ -8,11 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <style>
-      html, body, .container-fluid, .row {
-        height: 100%;
+      html, body, .container-fluid, .row, .col {
+        height: 100%
       }
-      .more-margin {
-        margin-top: 1rem;
+      .more-top-margin {
+        margin-top: 2rem;
       }
     </style>
 
@@ -21,22 +21,22 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xl-2 col-lg-4 col-md-6">
-          <h1 class="more-margin">Pedibus Völs zur Volksschule</h1>
+        <div class="col col-xl-3 col-lg-5 col-md-6">
+          <h1 class="more-top-margin">Pedibus Völs zur Volksschule</h1>
           <div class="alert alert-success" role="alert">
             <h4 class="alert-heading">2020</h4>
-            <p>14. September bis 9. Oktober</p>
+             <p>14. September bis 9. Oktober</p>
           </div>
           <p><strong>Ein Pedibus ist ein Autobus auf Füßen.</strong> Die "BuschauffeurInnen" sind Eltern, die "Fahrgäste" sind Schulkinder der VS Völs.</p>
           <p>Die Strecke des Pedibus führt durch Völs. An ausgeschilderten Haltestellen können die Kinder "zusteigen". So wird die Gruppe von Haltestelle zu Haltestelle immer größer und gemeinsam gehen die Kinder als Pedibus zur Schule.</p>
         </div>
-      </div>
-      <div class="col-xl-10 col-lg-8 col-md-6">
-          <iframe width="100%"
-                  height="100%"
-                  frameborder="0"
-                  allowfullscreen
-                  src="https://umap.openstreetmap.de/en/map/pedibus-vols_5541?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"
+        <div class="col col-xl-9 col-lg-7 col-md-6">
+          <iframe
+            width="100%"
+            height="100%"
+            frameborder="0"
+            allowfullscreen
+            src="https://umap.openstreetmap.de/en/map/pedibus-vols_5541?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"
           ></iframe>
         </div>
       </div>
